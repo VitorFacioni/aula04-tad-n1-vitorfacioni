@@ -35,6 +35,7 @@ void matriz_print(Matriz*matriz){
         for(size_t j = 0; j < matriz->cols;j++)
         {
             printf("%.2f", matriz->data[i][j]);
+            printf(" ");
         }
         printf("\n");
     }
